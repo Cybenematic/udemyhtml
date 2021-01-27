@@ -142,7 +142,7 @@ h2.title {
 }
 
 .waiting .waiting_subheader {
-    margin-top: 17px;
+    margin-top: 17px; 
     font-family: Roboto;
     font-weight: 400;
     font-size: 23px;
@@ -151,15 +151,16 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    margin: 0 15px;
+    
     width: 339px;
     text-align: center;
-    vertical-align: top;
+    
 }
 
 .waiting .waiting_wrapper .waiting_item .waitng_img {
@@ -174,3 +175,4 @@ h2.title {
     line-height: 21px;
     color: #4A4A4A;
 }
+
